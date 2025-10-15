@@ -183,6 +183,11 @@ body {
     font-weight: 700;
 }
 
+.highlight-text-ingenium {
+    color: #39888D;
+    font-weight: 700;
+}
+
 .highlight-text-imensa {
     color: var(--light-accent);
     font-weight: 700;
