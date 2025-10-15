@@ -1,0 +1,73 @@
+.typing-text {
+    color: var(--secondary-color);
+    font-weight: 700;
+    border-right: 2px solid var(--secondary-color);
+    animation: blink 1s infinite;
+    padding-right: 2px;
+    font-size: 1.5rem;
+}
+
+.typing-container {
+    display: inline-block;
+    position: relative;
+}
+
+.typing-cursor {
+    display: inline-block;
+    width: 2px;
+    background-color: var(--secondary-color);
+    margin-left: 2px;
+    animation: blink 1s infinite;
+}
+
+/* @keyframes blink {
+    0%, 100% { 
+        border-color: var(--secondary-color); 
+        opacity: 1;
+    }
+    50% { 
+        border-color: transparent; 
+        opacity: 0.7;
+    }
+} */
+
+/* Enhanced typing effect */
+.typing-text.complete {
+    border-right: none;
+}
+
+/* Error state */
+.typing-text.error {
+    color: var(--dark-accent);
+    border-right-color: var(--dark-accent);
+}
+
+/* Success state */
+.typing-text.success {
+    color: var(--primary-color);
+    border-right-color: var(--primary-color);
+}
+
+/* Paused state */
+.typing-text.paused {
+    animation: none;
+    border-right-color: transparent;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .typing-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .typing-text {
+        font-size: 1.3rem;
+        border-right-width: 1px;
+    }
+    
+    .typing-cursor {
+        width: 1px;
+    }
+}

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unisciti a Noi</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/icon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/join.css">
+    <!-- <style>
+        .join-hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #4aa0a6 100%);
+            color: var(--white);
+            padding: 320px 0 380px;
+            text-align: center;
+        }
+        
+        .join-hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+        }
+        
+        .join-hero .lead {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .benefits-section {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .role-card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            height: 100%;
+            border: 2px solid transparent;
+        }
+        
+        .role-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+            border-color: var(--secondary-color);
+        }
+        
+        .role-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, var(--primary-color), var(--dark-accent));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .role-icon i {
+            font-size: 2rem;
+            color: var(--white);
+        }
+        
+        .process-section {
+            padding: 80px 0;
+        }
+        
+        .process-step {
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, var(--secondary-color), var(--accent-color));
+            color: var(--dark);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .faq-section {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .accordion-button {
+            background: var(--white);
+            border: none;
+            padding: 1.5rem;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        
+        .accordion-button:not(.collapsed) {
+            background: var(--white);
+            color: var(--primary-color);
+            box-shadow: none;
+        }
+        
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: var(--secondary-color);
+        }
+        
+        .cta-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--primary-color) 0%, #4aa0a6 100%);
+            color: var(--white);
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo/ingenium-bs.png" alt="Ingenium Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">Chi Siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#event">Eventi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="imensa.html">iMENSA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="join.html">Unisciti a Noi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="join-hero">
+        <div class="container">
+            <h1 style="font-size: 6.5rem;">We Want <span class="highlight-text-hero">You!</span></h1>
+            <p class="lead" style="font-weight: 400;">
+                Sei appassionato di tecnologia, innovazione e vuoi fare la differenza? 
+                Unisciti alla nostra community e trasforma le tue idee in progetti concreti.
+            </p>
+            <div class="hero-buttons">
+                <a href="#application" class="btn btn-primary btn-lg me-3">
+                    <i class="fas fa-paper-plane me-2"></i>
+                    Candidati Ora
+                </a>
+                <a href="#benefits" class="btn btn-secondary btn-lg">
+                    <i class="fas fa-info-circle me-2"></i>
+                    Scopri di Più
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Perché Unirsi a <span class="highlight">Ingenium</span>?</h2>
+                    <p class="lead">Scopri tutti i vantaggi di far parte della nostra community</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Crescita Professionale</h4>
+                        <p>Sviluppa competenze tecniche e soft skills attraverso progetti reali e workshop formativi.</p>
+                        <ul class="text-start mt-3">
+                            <li>Esperienza pratica in progetti reali</li>
+                            <li>Sviluppo di competenze tecniche e gestionali</li>
+                            <li>Preparazione al mondo del lavoro</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h4>Collaborazione e Networking</h4>
+                        <p>Connettiti con professionisti, aziende leader e una community di talenti ambiziosi.</p>
+                        <ul class="text-start mt-3">
+                            <li>Eventi esclusivi</li>
+                            <li>Opportunità di collaborazioni e partnership</li>
+                            <li>Community attiva</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>Progetti Innovativi</h4>
+                        <p>Lavora su progetti concreti che risolvono problemi reali e hanno impatto sulla community.</p>
+                        <ul class="text-start mt-3">
+                            <li>Progetti reali e challenging</li>
+                            <li>Tecnologie all'avanguardia</li>
+                            <li>Impatto concreto</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open Roles Section -->
+    <!-- <section class="roles-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Ruoli <span class="highlight">Aperti</span></h2>
+                    <p class="lead">Scegli il ruolo che meglio si adatta alle tue competenze e passioni</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Sviluppatore Software</h4>
+                        <p><strong>Area:</strong> Tecnologia</p>
+                        <p>Sviluppa applicazioni innovative e contribuisci a progetti come iMENSA e altre piattaforme digitali.</p>
+                        <div class="requirements">
+                            <h6>Competenze Richieste:</h6>
+                            <div class="skill-tags">
+                                <span class="skill-tag">JavaScript/TypeScript</span>
+                                <span class="skill-tag">React/Node.js</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Database</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-3" data-role="developer">Candidati per questo ruolo</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h4>UX/UI Designer</h4>
+                        <p><strong>Area:</strong> Tecnologia</p>
+                        <p>Progetta interfacce utente intuitive e esperienze coinvolgenti per le nostre piattaforme digitali.</p>
+                        <div class="requirements">
+                            <h6>Competenze Richieste:</h6>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Figma/Adobe XD</span>
+                                <span class="skill-tag">User Research</span>
+                                <span class="skill-tag">Prototyping</span>
+                                <span class="skill-tag">Design Thinking</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-3" data-role="designer">Candidati per questo ruolo</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h4>Organizzatore Eventi</h4>
+                        <p><strong>Area:</strong> Eventi</p>
+                        <p>Organizza hackathon, workshop e eventi di networking per la community studentesca.</p>
+                        <div class="requirements">
+                            <h6>Competenze Richieste:</h6>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Organizzazione</span>
+                                <span class="skill-tag">Comunicazione</span>
+                                <span class="skill-tag">Problem Solving</span>
+                                <span class="skill-tag">Teamwork</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-3" data-role="event-organizer">Candidati per questo ruolo</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="role-card">
+                        <div class="role-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h4>Content Creator</h4>
+                        <p><strong>Area:</strong> Comunicazione</p>
+                        <p>Crea contenuti engaging per i social media e gestisci la comunicazione dell'associazione.</p>
+                        <div class="requirements">
+                            <h6>Competenze Richieste:</h6>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Social Media</span>
+                                <span class="skill-tag">Video Editing</span>
+                                <span class="skill-tag">Copywriting</span>
+                                <span class="skill-tag">Graphic Design</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-3" data-role="content-creator">Candidati per questo ruolo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Processo di <span class="highlight">Selezione</span></h2>
+                    <p class="lead">Come funziona il nostro processo di recruiting</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h5>Application</h5>
+                        <p>Compila il form di candidatura e allega il tuo CV</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h5>Screening</h5>
+                        <p>Revisione del profilo e verifica dei requisiti</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h5>Colloquio</h5>
+                        <p>Incontro conoscitivo con il team</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h5>Benvenuto!</h5>
+                        <p>Ingresso nel team e onboarding</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section id="application" class="application-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="application-form-container">
+                        <div class="form-header text-center mb-5">
+                            <h2 class="section-title">Candidati <span class="highlight">Ora</span></h2>
+                            <p>Compila il form per entrare a far parte del team Ingenium</p>
+                        </div>
+                        
+                        <form id="applicationForm" class="application-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label">Nome *</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label">Cognome *</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Telefono</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="course" class="form-label">Corso di Studio *</label>
+                                <select class="form-select" id="course" required>
+                                    <option value="">Seleziona il tuo corso</option>
+                                    <option value="ingegneria">Ingegneria Gestionale</option>
+                                    <option value="informatica">Informatica</option>
+                                    <option value="economia">Economia e Management</option>
+                                    <option value="giurisprudenza">Giurisprudenza</option>
+                                    <option value="altro">Altro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="year" class="form-label">Anno di Corso *</label>
+                                <select class="form-select" id="year" required>
+                                    <option value="">Seleziona l'anno</option>
+                                    <option value="1">Primo Anno</option>
+                                    <option value="2">Secondo Anno</option>
+                                    <option value="3">Terzo Anno</option>
+                                    <option value="4">Quarto Anno</option>
+                                    <option value="5">Quinto Anno</option>
+                                    <option value="laureato">Laureato</option>
+                                </select>
+                            </div>
+                            
+                            <!-- <div class="mb-3">
+                                <label for="role" class="form-label">Ruolo di Interesse *</label>
+                                <select class="form-select" id="role" required>
+                                    <option value="">Seleziona il ruolo</option>
+                                    <option value="developer">Sviluppatore Software</option>
+                                    <option value="designer">UX/UI Designer</option>
+                                    <option value="event-organizer">Organizzatore Eventi</option>
+                                    <option value="content-creator">Content Creator</option>
+                                    <option value="other">Altro</option>
+                                </select>
+                            </div> -->
+                            
+                            <div class="mb-3">
+                                <label for="experience" class="form-label">Esperienza e Competenze *</label>
+                                <textarea class="form-control" id="experience" rows="4" 
+                                          placeholder="Descrivi la tua esperienza, competenze tecniche e progetti a cui hai lavorato..." required></textarea>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="motivation" class="form-label">Lettera di Motivazione *</label>
+                                <textarea class="form-control" id="motivation" rows="4" 
+                                          placeholder="Perché vuoi unirti a Ingenium? Cosa ti aspetti di imparare e contribuire?" required></textarea>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="portfolio" class="form-label">Portfolio o GitHub (opzionale)</label>
+                                <input type="url" class="form-control" id="portfolio" 
+                                       placeholder="https://github.com/tuoprofilo o link al tuo portfolio">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="privacy" required>
+                                    <label class="form-check-label" for="privacy">
+                                        Acconsento al trattamento dei miei dati personali per le finalità di recruiting *
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-paper-plane me-2"></i>
+                                    Invia Candidatura
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Domande <span class="highlight">Frequenti</span></h2>
+                    <p class="lead">Tutto ciò che devi sapere prima di candidarti</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Quali sono i requisiti per entrare in Ingenium?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Cerchiamo studenti motivati del Dipartimento di Ingegneria LUM con passione per la tecnologia e l'innovazione. 
+                                    Non è richiesta esperienza pregressa, ma apprezziamo curiosità, voglia di imparare e spirito di squadra.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Posso candidarmi anche se non ho competenze tecniche?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Assolutamente sì! Se hai voglia di imparare e contribuire, troverai il tuo spazio nella nostra community.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Quali opportunità di crescita offre Ingenium?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Offriamo formazione continua, mentorship, opportunità di leadership, partecipazione a hackathon e conferenze, 
+                                    networking con aziende partner, e la possibilità di sviluppare progetti reali che arricchiscono il tuo portfolio.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Pronto a Fare la Differenza?</h2>
+            <p class="lead mb-4">Unisciti a noi e trasforma la tua passione in progetti concreti</p>
+            <a href="#application" class="btn btn-light btn-lg">
+                <i class="fas fa-rocket me-2"></i>
+                Candidati Ora
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-main">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-brand">
+                        <div class="footer-text-alignment">
+                            <img src="assets/img/logo/ingenium.png" alt="Ingenium Logo" class="footer-logo">
+                        </div>
+                        <p class="footer-description footer-text-alignment">
+                            Una community di studenti che progettano, sperimentano e costruiscono il domani
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Link -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h5>Esplora</h5>
+                        <ul>
+                            <li><a href="index.html#home" class="footer-text-alignment">Home</a></li>
+                            <li><a href="index.html#about" class="footer-text-alignment">Chi Siamo</a></li>
+                            <li><a href="index.html#team" class="footer-text-alignment">Team</a></li>
+                            <li><a href="index.html#event" class="footer-text-alignment">Event</a></li>
+                            <li><a href="imensa.html" class="footer-text-alignment">iMENSA</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Progetti -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h5>Progetti</h5>
+                        <ul>
+                            <li><a href="imensa.html" class="footer-text-alignment">iMENSA</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contatti -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-contact">
+                        <h5>Contattaci</h5>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>LUM University<br>SS 100 Km 18, 70010 Casamassima BA</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>d.trunfio@studenti.lum.it</span>
+                            </div>
+                            <!-- <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span></span>
+                            </div> -->
+                        </div>
+                        
+                        <!-- Newsletter -->
+                        <div class="newsletter">
+                            <h6>Rimani Aggiornato</h6>
+                            <p>Iscriviti alla nostra newsletter</p>
+                            <form class="newsletter-form">
+                                <div style="position: relative; flex: 1 1 auto; min-width: 0;">
+                                    <input type="email" class="form-control" placeholder="La tua email" required>
+                                    <button class="btn btn-primary" type="submit" style="margin-top: 10px; flex: 1; width: 100%;">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>Pet that dawg</h2>
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/logo/qr-code-insta.png" alt="QR Code" class="img-fluid" style="max-width: 300px;" loading="lazy">
+                    </div>
+                    <div class="col-md-6">
+                        <div id="pet-container">
+                            <img id="digital-pet" src="assets/gif/pet-idle.gif" alt="Digital Pet" loading="lazy">
+                            <div class="pet-actions">
+                                <button id="feed-pet-btn" class="btn btn-sm btn-primary">Feed Pet</button>
+                                <button id="play-pet-btn" class="btn btn-sm btn-outline-light">Play with Pet</button>
+                            </div>
+                            <div id="pet-status">
+                                <p>Hunger: <span id="pet-hunger">100%</span></p>
+                                <p>Happiness: <span id="pet-happiness">100%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="row footer-bottom">
+                <div class="col-md-6">
+                    <div class="copyright">
+                        <p>&copy; 2025 Ingenium. Tutti i diritti riservati.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-legals">
+                        <a href="#privacy">Privacy Policy</a>
+                        <a href="#terms">Termini di Servizio</a>
+                        <a href="#cookies">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <button class="back-to-top" id="backToTop">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const roleButtons = document.querySelectorAll('[data-role]');
+            const roleSelect = document.getElementById('role');
+            
+            roleButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const role = this.getAttribute('data-role');
+                    roleSelect.value = role;
+                    
+                    document.getElementById('application').scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Static form submission
+            const applicationForm = document.getElementById('applicationForm');
+            
+            if (applicationForm) {
+                applicationForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    if (this.checkValidity()) {
+                        simulateApplicationSubmission();
+                        
+                        showApplicationSuccess();
+                        
+                        this.reset();
+                    } else {
+                        this.reportValidity();
+                    }
+                });
+            }
+            
+            function simulateApplicationSubmission() {
+                const formData = new FormData(applicationForm);
+                const data = Object.fromEntries(formData);
+                console.log('Application submitted:', data);
+            }
+            
+            function showApplicationSuccess() {
+                // Create success modal
+                const successHTML = `
+                    <div class="modal fade" id="successModal" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Candidatura Inviata!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <i class="fas fa-check-circle text-success mb-3" style="font-size: 3rem;"></i>
+                                    <h4>Grazie per la tua candidatura!</h4>
+                                    <p>Abbiamo ricevuto la tua application e ti contatteremo presto per i prossimi step.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Chiudi</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                const existingModal = document.getElementById('successModal');
+                if (existingModal) {
+                    existingModal.remove();
+                }
+                
+                document.body.insertAdjacentHTML('beforeend', successHTML);
+                
+                const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+                successModal.show();
+            }
+        });
+    </script>
+</body>
+</html>

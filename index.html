@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingenium - Associazione Studentesca</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/icon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/type.css">
+    <link rel="stylesheet" href="assets/css/particle.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="assets/img/logo/ingenium-bs.png" alt="Ingenium Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Chi Siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#event">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="imensa.html">iMENSA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-join" href="join.html">Unisciti a Noi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div id="particles-js"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Talento. Innovazione. Azione. <span class="highlight-text-hero">Insieme.</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                        Una community che costruisce 
+                        <span class="typing-text" data-words='["esperienze","opportunità","soluzioni","futuro"]'></span>
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#event" class="btn btn-primary me-3">
+                                <i class="fas fa-calendar-alt me-2"></i>
+                                Vedi gli Eventi
+                            </a>
+                            <a href="join.html" class="btn btn-secondary">
+                                <i class="fas fa-users me-2"></i>
+                                Diventa Membro
+                            </a>
+                        </div>
+                        <!-- <div class="hero-features">
+                            <div class="feature-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Formazione</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-handshake"></i>
+                                <span>Networking</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-rocket"></i>
+                                <span>Innovazione</span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4" class="hero-lottie">
+                    <div >
+                        <iframe src="https://lottie.host/embed/79f948d8-3808-4f90-96a1-e830ffc83afd/60rtxIU9tX.lottie" style="width: 120%; height:800px;"></iframe>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-4">
+                    <div class="hero-card">
+                        <h3>Prossimo Evento</h3>
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">Gen</span>
+                            <span class="year">2025</span>
+                        </div>
+                        <h4>IMENSA - Incontra e Condividi</h4>
+                        <p>Un momento di condivisione tra cibo e idee</p>
+                        <a href="#imensa" class="btn btn-outline">Scopri di più</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <!-- <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div> -->
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="section-tag">
+                            <span>Chi Siamo</span>
+                        </div>
+                        <h2 class="section-title">Cos'è <span class="highlight">Ingenium</span>?</h2>
+                        <p class="lead" style="font-weight: 300;">
+                            Ingenium è l’associazione studentesca della <span class="highlight-text-lum">LUM</span> che trasforma idee in progetti tecnologici concreti, 
+                            promuovendo <span class="highlight-text">innovazione</span>, <span class="highlight-text">collaborazione</span> e <span class="highlight-text">crescita</span> personale dei membri attraverso hackathon, 
+                            laboratori e attività pratiche.
+                        </p>
+                        
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-bullseye"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>La Nostra Missione</h4>
+                                    <p>Promuovere l’innovazione e lo sviluppo di competenze multidisciplinari tra gli studenti di ingegneria, creando progetti concreti nelle STEM e offrendo strumenti e opportunità per crescere professionalmente e personalmente.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>La Nostra Visione</h4>
+                                    <p>Diventare un punto di riferimento per gli studenti STEM nel territorio, creando un ecosistema di innovazione in cui studenti, docenti e professionisti collaborano per sviluppare soluzioni tecnologiche e innovative.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>I Nostri Valori</h4>
+                                    <p>Uniti dall’innovazione, cresciamo facendo, rispettando l’ambiente e valorizzando ogni talento.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="200">0</div>
+                                <div class="stat-label">Studenti Coinvolti</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="10">0</div>
+                                <div class="stat-label">Eventi Partecipato</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="1">0</div>
+                                <div class="stat-label">Progetti Realizzati</div>
+                            </div>
+                        </div>
+
+                        <div class="about-actions">
+                            <a href="#team" class="btn btn-primary">
+                                <i class="fas fa-users me-2"></i>
+                                Scopri il Team
+                            </a>
+                            <a href="#event" class="btn btn-outline">
+                                <i class="fas fa-calendar me-2"></i>
+                                Vedi gli Eventi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="about-visual">
+                        <div class="image-grid">
+                            <div class="main-image">
+                                <img src="assets/img/about3.png" 
+                                    alt="Team Ingenium" class="img-fluid">
+                            </div>
+                            <div class="secondary-images">
+                                <div class="small-image">
+                                    <img src="assets/img/about1.png" 
+                                        alt="Evento Ingenium">
+                                </div>
+                                <div class="small-image">
+                                    <img src="assets/img/about2.png" 
+                                        alt="Workshop Ingenium">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-grid-alt">
+                            <div class="main-image">
+                                <img src="assets/img/tedxpolignano.jpg" 
+                                    alt="Team Ingenium" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Perché Sceglierci (Why not? Coconut ( ﾉ ﾟｰﾟ)ﾉ) -->
+            <div class="row why-section">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Perché Scegliere <span class="highlight">Ingenium</span>?</h2>
+                        <p class="lead" style="font-weight: 500;">Tre pilastri fondamentali che ci distinguono</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h4>Crescita e Formazione Pratica</h4>
+                        <p>Ingenium offre un ambiente dove gli studenti imparano facendo. Partecipare a hackathon, laboratori, progetti concreti 
+                            e fiere permette di sviluppare competenze tecniche e soft skills che completano la formazione universitaria.</p>
+                        <ul class="why-list">
+                            <li><i class="fas fa-check"></i> Esperienza pratica in progetti reali</li>
+                            <li><i class="fas fa-check"></i> Sviluppo di competenze tecniche e gestionali</li>
+                            <li><i class="fas fa-check"></i> Preparazione al mondo del lavoro</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Innovazione e Creatività</h4>
+                        <p>Ingenium è un hub di innovazione dove le idee diventano progetti concreti. Dal design di soluzioni digitali 
+                            come iMENSA alla prototipazione 3D, ogni membro ha la possibilità di contribuire a tecnologie all’avanguardia.</p>
+                        <ul class="why-list">
+                            <li><i class="fas fa-check"></i> Accesso a tecnologie avanzate</li>
+                            <li><i class="fas fa-check"></i> Spazio per idee creative e innovative</li>
+                            <li><i class="fas fa-check"></i> Partecipazione a progetti e competizioni</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>Collaborazione e Networking</h4>
+                        <p>Entrare in Ingenium significa far parte di una comunità di studenti, docenti e professionisti. 
+                            La collaborazione e i contatti costruiti qui aiutano a crescere sia professionalmente che personalmente.</p>
+                        <ul class="why-list">
+                            <li><i class="fas fa-check"></i> Lavoro in team multidisciplinari</li>
+                            <li><i class="fas fa-check"></i> Connessione con docenti e professionisti</li>
+                            <li><i class="fas fa-check"></i> Opportunità di collaborazioni e partnership</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline -->
+            <div class="row timeline-section">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">La Nostra <span class="highlight"> Storia</span></h2>
+                        <p class="lead" style="font-weight: 500;">Il percorso che ci ha portato a diventare l'associazione di riferimento</p>
+                    </div>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023</div>
+                            <div class="timeline-content">
+                                <h4>Fondazione di Ingenium</h4>
+                                <p>Ingenium nasce nel <strong>2023</strong> come associazione studentesca del Dipartimento di Ingegneria della 
+                                    <span class="highlight-text-lum">LUM</span>, fondata da 
+                                    <strong>Alessandro Demetrio Trunfio</strong> insieme ad altri co-fondatori, 
+                                    con l’obiettivo di promuovere <span class="highlight-text">innovazione</span>, 
+                                    <span class="highlight-text">collaborazione</span> e <span class="highlight-text">crescita</span> dei membri.</p>
+
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <div class="timeline-content">
+                                <h4>Prime Attività e Progetti</h4>
+                                <p>Il team partecipa a hackathon, laboratori e fiere, sviluppando i primi progetti concreti, tra cui <span class="highlight-text-imensa">iMENSA</span>, 
+                                    e iniziando a costruire una rete di collaborazione con docenti e partner esterni.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025</div>
+                            <div class="timeline-content">
+                                <h4>Espansione e Riconoscimenti</h4>
+                                <p>Ingenium consolida la sua presenza sul territorio con eventi come <span class="highlight-text">Futura Expo 2025</span>, 
+                                    <span class="highlight-text">hackathon</span> regionali e nazionali, 
+                                    e competizioni come <span class="highlight-text">CirTech Taranto 2025</span>, ottenendo premi e riconoscimenti 
+                                    per l’innovazione e l’impatto sociale.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">2026</div>
+                            <div class="timeline-content">
+                                <h4>Futuro e Crescita Continua</h4>
+                                <p>L’associazione punta a diventare un hub di riferimento per studenti STEM, ampliando progetti, partnership e opportunità di formazione pratica, 
+                                    mantenendo al centro valori come <span class="highlight-text">innovazione</span>, 
+                                    <span class="highlight-text">sostenibilità</span> e <span class="highlight-text">collaborazione</span>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title">Il Team <span class="highlight">Ingenium</span></h2>
+                        <p class="lead" style="font-weight: 500;">La squadra di talenti che guida l'innovazione</p>
+                        <div class="section-divider"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid Team -->
+            <div class="row team-grid" id="team-grid" style="justify-content: center;">
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-image">
+                                <img src="assets/img/members/AlessandroDemetrioTrunfio.png" 
+                                     alt="Alessandro Demetrio Trunfio">
+                            </div>
+                            <div class="member-badge leadership">Founder</div>
+                        </div>
+                        <div class="member-content">
+                            <h4>Alessandro Demetrio Trunfio</h4>
+                            <p class="member-role">Founder - Strategy & Platform Expert Integration System</p>
+                            <div class="social-links" style="justify-content: center;">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-image">
+                                <img src="assets/img/members/AnnaMezzapesa.png" 
+                                     alt="Anna Mezzapesa">
+                            </div>
+                            <div class="member-badge leadership">Co-Founder</div>
+                        </div>
+                        <div class="member-content">
+                            <h4>Anna Mezzapesa</h4>
+                            <p class="member-role">Co-Founder - CTO AI, Web Arch & Robotics Specialist</p>
+                            <div class="social-links" style="justify-content: center;">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-image">
+                                <img src="assets/img/members/FerdinandoPotenza.png" 
+                                     alt="Ferdinando Potenza">
+                            </div>
+                            <div class="member-badge leadership">Co-Founder</div>
+                        </div>
+                        <div class="member-content">
+                            <h4>Ferdinando Potenza</h4>
+                            <p class="member-role">Co-Founder - Project Manager, Data Eng & CFO</p>
+                            <div class="social-links" style="justify-content: center;">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-image">
+                                <img src="assets/img/members/AntonioAndreaTondi.png" 
+                                     alt="Antonio Andrea Tondi">
+                            </div>
+                            <div class="member-badge leadership">Co-Founder</div>
+                        </div>
+                        <div class="member-content">
+                            <h4>Antonio Andrea Tondi</h4>
+                            <p class="member-role">Co-Founder - CIO, Coordinator Manager & Event Org.</p>
+                            <div class="social-links" style="justify-content: center;">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-image">
+                                <img src="assets/img/members/maledoodle.png" 
+                                     alt="Carl Harvey Miguel">
+                            </div>
+                            <div class="member-badge tecnologia">Developer</div>
+                        </div>
+                        <div class="member-content">
+                            <h4>Carl Harvey Miguel</h4>
+                            <p class="member-role">Junior Developer - UI/UX</p>
+                            <div class="social-links" style="justify-content: center;">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-image">
+                                <img src="assets/img/members/DanielBellanova.png" 
+                                     alt="Daniel Bellanova">
+                            </div>
+                            <div class="member-badge tecnologia">Data Science</div>
+                        </div>
+                        <div class="member-content">
+                            <h4>Daniel Bellanova</h4>
+                            <p class="member-role">Trainee Resp. Merchandising & Data Science</p>
+                            <div class="social-links" style="justify-content: center;">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+                    <div class="team-member-card">
+                        <div class="member-header">
+                            <div class="member-image">
+                                <img src="assets/img/members/femaledoodle.png" 
+                                     alt="Marianna Faioli">
+                            </div>
+                            <div class="member-badge tecnologia">Communication</div>
+                        </div>
+                        <div class="member-content">
+                            <h4>Marianna Faioli</h4>
+                            <p class="member-role">Trainee Resp. Comunicazione</p>
+                            <div class="social-links" style="justify-content: center;">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Call to Action -->
+                <div class="row mt-5">
+                    <div class="col-12 text-center">
+                        <div class="eventi-cta">
+                            <h3>Sei appassionato di tecnologia, innovazione e vuoi fare la differenza?</h3>
+                            <p>Unisciti alla nostra community e trasforma le tue idee in progetti concreti!</p>
+                            <a class="btn btn-primary btn-lg" href="join.html">
+                                <i class="fas fa-lightbulb me-2"></i>
+                                Join Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section id="event" class="eventi-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title"><span class="highlight">Eventi</span></h2>
+                        <p class="lead" style="font-weight: 500;">Eventi e attività che abbiamo partecipato</p>
+                        <div class="section-divider"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filtri Eventi -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="event-filters">
+                        <button class="filter-btn active" data-filter="all">Tutti gli Eventi</button>
+                        <button class="filter-btn" data-filter="2025">2025</button>
+                        <button class="filter-btn" data-filter="2024">2024</button>
+                        <button class="filter-btn" data-filter="2023">2023</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Griglia Eventi -->
+            <div class="row" id="eventi-grid">
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2025">
+                    <div class="event-card">
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/tedxbarletta.jpg">
+                            <div class="event-category">2025</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>TedxBarletta</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Barletta</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details" >Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2025">
+                    <div class="event-card">
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/startcup2025.png">
+                            <div class="event-category">2025</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>Start Cup 2025</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Bari</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2025">
+                    <div class="event-card">
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/ern25.jpg">
+                            <div class="event-category">2025</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>Notte Dei Ricecatori</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Bari</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2025">
+                    <div class="event-card">
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/cirtech24.jpeg">
+                            <div class="event-category">2025</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>CirTech</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Taranto</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2025">
+                    <div class="event-card">
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/slap24.png">
+                            <div class="event-category">2025</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>SLAP</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Canosa di Puglia</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2025">
+                    <div class="event-card">    
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/expo24.jpg">
+                            <div class="event-category">2025</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>Futura Expo</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Brescia</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2025">
+                    <div class="event-card">    
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/digithon.jpg">
+                            <div class="event-category">2025</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>Digithon</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Casamassima</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2025">
+                    <div class="event-card">    
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/tedxpolignano.jpg">
+                            <div class="event-category">2025</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>TedxPolignano</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Polignano</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-4 col-md-6 mb-4" data-category="2025">
+                    <div class="event-card">    
+                        <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div>
+                        <div class="event-image">
+                            <img src="assets/img/yes.jpg">
+                            <div class="event-category">2025</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>YES - Young Entreperneurs Society</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Cina</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2024">
+                    <div class="event-card">    
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/tusk.png">
+                            <div class="event-category">2024</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>Hackathon OpenTusk</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Bari</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4" data-category="2023">
+                    <div class="event-card">    
+                        <!-- <div class="event-date">
+                            <span class="day"></span>
+                            <span class="month"></span>
+                        </div> -->
+                        <div class="event-image">
+                            <img src="assets/img/ern23.png">
+                            <div class="event-category">2023</div>
+                        </div>
+                        <div class="event-content">
+                            <h3>Hackathon OpenTusk</h3>
+                            <p class="event-location"><i class="fas fa-map-marker-alt"></i>Bari</p>
+                            <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <div class="event-actions">
+                                <button class="btn-event btn-details">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-main">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-brand">
+                        <div class="footer-text-alignment">
+                            <img src="assets/img/logo/ingenium.png" alt="Ingenium Logo" class="footer-logo">
+                        </div>
+                        <p class="footer-description footer-text-alignment">
+                            Una community di studenti che progettano, sperimentano e costruiscono il domani
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Link -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h5>Esplora</h5>
+                        <ul>
+                            <li><a href="#home" class="footer-text-alignment">Home</a></li>
+                            <li><a href="#about" class="footer-text-alignment">Chi Siamo</a></li>
+                            <li><a href="#team" class="footer-text-alignment">Team</a></li>
+                            <li><a href="#event" class="footer-text-alignment">Event</a></li>
+                            <li><a href="imensa.html" class="footer-text-alignment">iMENSA</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Progetti -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h5>Progetti</h5>
+                        <ul>
+                            <li><a href="imensa.html" class="footer-text-alignment">iMENSA</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contatti -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-contact">
+                        <h5>Contattaci</h5>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>LUM University<br>SS 100 Km 18, 70010 Casamassima BA</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>d.trunfio@studenti.lum.it</span>
+                            </div>
+                            <!-- <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span></span>
+                            </div> -->
+                        </div>
+                        
+                        <!-- Newsletter -->
+                        <div class="newsletter">
+                            <h6>Rimani Aggiornato</h6>
+                            <p>Iscriviti alla nostra newsletter</p>
+                            <form class="newsletter-form">
+                                <div style="position: relative; flex: 1 1 auto; min-width: 0;">
+                                    <input type="email" class="form-control" placeholder="La tua email" required>
+                                    <button class="btn btn-primary" type="submit" style="margin-top: 10px; flex: 1; width: 100%;">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>Pet that dawg</h2>
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/logo/qr-code-insta.png" alt="QR Code" class="img-fluid" style="max-width: 300px;" loading="lazy">
+                    </div>
+                    <div class="col-md-6">
+                        <div id="pet-container">
+                            <img id="digital-pet" src="assets/gif/pet-idle.gif" alt="Digital Pet" loading="lazy">
+                            <div class="pet-actions">
+                                <button id="feed-pet-btn" class="btn btn-sm btn-primary">Feed Pet</button>
+                                <button id="play-pet-btn" class="btn btn-sm btn-outline-light">Play with Pet</button>
+                            </div>
+                            <div id="pet-status">
+                                <p>Hunger: <span id="pet-hunger">100%</span></p>
+                                <p>Happiness: <span id="pet-happiness">100%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="row footer-bottom">
+                <div class="col-md-6">
+                    <div class="copyright">
+                        <p>&copy; 2025 Ingenium. Tutti i diritti riservati.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-legals">
+                        <a href="#privacy">Privacy Policy</a>
+                        <a href="#terms">Termini di Servizio</a>
+                        <a href="#cookies">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <button class="back-to-top" id="backToTop">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/type.js"></script>
+    <script src="assets/js/particle.js"></script>
+</body>
+</html>

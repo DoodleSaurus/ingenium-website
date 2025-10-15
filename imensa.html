@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMENSA - WeMensa</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/icon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/imensa.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo/ingenium-bs.png" alt="Ingenium Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">Chi Siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#event">Eventi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">iMENSA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-join" href="join.html">Unisciti a Noi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="imensa-hero" id="home">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <div class="project-status">
+                            <span class="status-badge">In Sviluppo</span>
+                        </div>
+                        <h1 class="hero-title-imensa">
+                            <!-- <span class="highlight-text-hero">iMENSA</span> -->
+                            <img src="assets/img/logo/imensa.png" alt="iMENSA Logo" class="imensa-logo-hero" style="width: 100%; max-width: 450px;">
+                        </h1>
+                        <p class="hero-subtitle" style="font-weight: 400;">
+                            La piattaforma intelligente che rivoluzionerà l'esperienza mensa universitaria
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary me-3" id="scopri-imensa">
+                                <i class="fas fa-play me-2"></i>
+                                Vedi la Demo
+                            </button>
+                            <button class="btn btn-secondary" id="partecipa-sondaggio">
+                                <i class="fas fa-vote-yea me-2"></i>
+                                Partecipa al Sondaggio
+                            </button>
+                        </div>
+                        <!-- <div class="project-info">
+                            <div class="info-item-imensa">
+                                <i class="fas fa-code-branch" style="color: white; padding: 10px:"></i>
+                                <span>Stato: <strong>In Sviluppo</strong></span>
+                            </div>
+                            <div class="info-item-imensa">
+                                <i class="fas fa-calendar"></i>
+                                <span>Lancio Previsto: <strong>2025</strong></span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <img src="assets/img/imensa/example1.png" 
+                                     alt="iMENSA App Interface">
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-card card-1">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Concept Innovativo</span>
+                            </div>
+                            <div class="floating-card card-2">
+                                <i class="fas fa-users"></i>
+                                <span>In sviluppo</span>
+                            </div>
+                            <div class="floating-card card-3">
+                                <i class="fas fa-rocket"></i>
+                                <span>Prossimamente</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Status Section -->
+    <section class="project-status-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Stato del <span class="highlight">Progetto</span></h2>
+                    <p class="lead" style="font-weight: 400;">Scopri dove siamo arrivati e cosa stiamo sviluppando</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="timeline-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 28%"></div>
+                        </div>
+                        <div class="milestones">
+                            <div class="milestone completed">
+                                <div class="milestone-dot"></div>
+                                <div class="milestone-content">
+                                    <h5>Concept & Design</h5>
+                                    <span>Completo</span>
+                                </div>
+                            </div>
+                            <div class="milestone current">
+                                <div class="milestone-dot"></div>
+                                <div class="milestone-content">
+                                    <h5>Prototipo UI/UX</h5>
+                                    <span>In Corso</span>
+                                </div>
+                            </div>
+                            <div class="milestone">
+                                <div class="milestone-dot"></div>
+                                <div class="milestone-content">
+                                    <h5>Sviluppo App</h5>
+                                    <span>Prossimamente</span>
+                                </div>
+                            </div>
+                            <div class="milestone">
+                                <div class="milestone-dot"></div>
+                                <div class="milestone-content">
+                                    <h5>Testing</h5>
+                                    <span>Prossimamente</span>
+                                </div>
+                            </div>
+                            <div class="milestone">
+                                <div class="milestone-dot"></div>
+                                <div class="milestone-content">
+                                    <h5>Lancio</h5>
+                                    <span>N/A</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About iMENSA Section -->
+    <section class="about-imensa-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="section-tag">
+                            <span>Il Progetto</span>
+                        </div>
+                        <h2 class="section-title">Cos'è <span class="highlight">iMENSA</span>?</h2>
+                        <p class="lead">
+                            iMENSA è la piattaforma innovativa che <strong>Ingenium sta sviluppando</strong> per trasformare la mensa universitaria 
+                            in un'esperienza digitale smart, veloce e personalizzata.
+                        </p>
+                        
+                        <div class="imensa-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Innovazione Digitale</h4>
+                                    <p>Prenotazione pasti via app, menu digitali e sistema di pagamento integrato per un'esperienza senza attese.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Salute e Benessere</h4>
+                                    <p>Tracking nutrizionale, preferenze alimentari e suggerimenti personalizzati per una dieta bilanciata.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Sostenibilità</h4>
+                                    <p>Riduzione degli sprechi alimentari attraverso prenotazioni accurate e gestione intelligente delle scorte.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="development-team">
+                            <h5>Sviluppato da:</h5>
+                            <div class="team-members">
+                                <span class="team-tag"><img src="assets/img/logo/ingenium.png" class="ingenium-imensa"> </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="about-visual">
+                        <div class="image-grid-alt-imensa">
+                            <div class="main-image">
+                                <div class="development-badge">
+                                    Filtro
+                                </div>
+                                <img src="assets/img/imensa/example7.png" 
+                                    alt="Team Ingenium" class="img-fluid">
+                            </div>
+                            <div class="main-image">
+                                <div class="development-badge">
+                                    Menu suggerito
+                                </div>
+                                <img src="assets/img/imensa/example6.png" 
+                                    alt="Team Ingenium" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="image-grid-alt-imensa">
+                            <div class="main-image">
+                                <div class="development-badge">
+                                    Diario Alimentare
+                                </div>
+                                <img src="assets/img/imensa/example8.png" 
+                                    alt="Team Ingenium" class="img-fluid">
+                            </div>
+                            <div class="main-image">
+                                <img src="assets/img/imensa/example9.png" 
+                                    alt="Team Ingenium" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Funzionalità <span class="highlight">Pianificate</span></h2>
+                    <p class="lead">Scopri tutto ciò che iMENSA offrirà</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-status">In Sviluppo</div>
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>App Mobile Intuitiva</h4>
+                        <p>Interfaccia user-friendly disponibile per iOS e Android, con design moderno e navigazione semplice.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Prenotazione in pochi tap</li>
+                            <li><i class="fas fa-check"></i> Notifiche push</li>
+                            <li><i class="fas fa-check"></i> Aggiornamenti in tempo reale</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-status">Pianificato</div>
+                        <div class="feature-icon">
+                            <i class="fas fa-qrcode"></i>
+                        </div>
+                        <h4>Sistema QR Code</h4>
+                        <p>Prenotazione e ritiro pasti tramite QR code, eliminando le code e ottimizzando i tempi.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Generazione QR automatica</li>
+                            <li><i class="fas fa-check"></i> Scannerizzazione veloce</li>
+                            <li><i class="fas fa-check"></i> Conferma immediata</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-status">In Progettazione</div>
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h4>Tracking Nutrizionale</h4>
+                        <p>Monitoraggio completo del profilo nutrizionale con statistiche e suggerimenti personalizzati.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Calorie e nutrienti</li>
+                            <li><i class="fas fa-check"></i> Storico consumi</li>
+                            <li><i class="fas fa-check"></i> Obiettivi personali</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="demo-container">
+                <div class="demo-header">
+                    <div class="demo-badge">Anteprima Prototipo</div>
+                    <h3>Guarda iMENSA in Azione</h3>
+                    <p>Esplora il concept e le funzionalità che stiamo sviluppando</p>
+                </div>
+                <div class="demo-content">
+                    <div class="demo-steps">
+                        <div class="step active" data-step="1">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h5>Registrazione e Login</h5>
+                                <p style="color: black;">Accesso sicuro con credenziali universitarie in pochi secondi</p>
+                            </div>
+                        </div>
+                        <div class="step active" data-step="2">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h5>Prenotazione Pasto</h5>
+                                <p style="color: black;">Scegli il menu del giorno e prenota il tuo pasto preferito</p>
+                            </div>
+                        </div>
+                        <div class="step active" data-step="3">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h5>QR Code e Ritiro</h5>
+                                <p style="color: black;">Mostra il QR code alla mensa e ritira il tuo pasto senza code</p>
+                            </div>
+                        </div>
+                        <div class="step active" data-step="4">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h5>Feedback e Statistiche</h5>
+                                <p style="color: black;">Lascia una recensione e monitora le tue abitudini alimentari</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="demo-visual">
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <img src="assets/img/imensa/example10.png" 
+                                     alt="iMENSA App Interface">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Survey Section -->
+    <section class="survey-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="survey-content">
+                        <h2 class="section-title">Aiutaci a Migliorare <span class="highlight">iMENSA</span></h2>
+                        <p class="lead">
+                            La tua opinione è fondamentale! Partecipa al sondaggio per aiutarci a sviluppare 
+                            la piattaforma perfetta per le tue esigenze.
+                        </p>
+                        <div class="survey-features">
+                            <div class="survey-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Contribuisci allo sviluppo</span>
+                            </div>
+                            <div class="survey-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Influenza le funzionalità</span>
+                            </div>
+                            <div class="survey-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Ricevi aggiornamenti esclusivi</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-lg mt-4" id="open-survey">
+                            <i class="fas fa-pencil-alt me-2"></i>
+                            Partecipa al Sondaggio
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="survey-visual">
+                        <div class="survey-card">
+                            <div class="survey-header">
+                                <i class="fas fa-clipboard-list"></i>
+                                <h4>Sondaggio iMENSA</h4>
+                            </div>
+                            <div class="survey-body">
+                                <p>Aiutaci a capire cosa desideri dalla prossima piattaforma mensa universitaria</p>
+                                <div class="survey-stats">
+                                    <div class="stat">
+                                        <strong>127</strong>
+                                        <span>Partecipanti</span>
+                                    </div>
+                                    <div class="stat">
+                                        <strong>15</strong>
+                                        <span>Giorni rimanenti</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coming Soon Section -->
+    <section class="coming-soon-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="coming-soon-content">
+                        <i class="fas fa-rocket coming-soon-icon"></i>
+                        <h2>Prossimamente</h2>
+                        <p class="lead">iMENSA sta arrivando! Rimani aggiornato per il lancio.</p>
+                        <div class="countdown" id="countdown">
+                            <div class="countdown-item">
+                                <span class="countdown-number">--</span>
+                                <span class="countdown-label">Giorni</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number">--</span>
+                                <span class="countdown-label">Ore</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number">--</span>
+                                <span class="countdown-label">Minuti</span>
+                            </div>
+                        </div>
+                        <div class="newsletter-cta">
+                            <p>Ricevi aggiornamenti sul lancio di iMENSA</p>
+                            <form class="newsletter-form">
+                                <div style="position: relative; flex: 1 1 auto; min-width: 0;">
+                                    <input type="email" class="form-control" placeholder="La tua email" required>
+                                    <button class="btn btn-primary" type="submit" style="margin-top: 10px; flex: 1; width: 100%;">
+                                        <i class="fas fa-paper-plane"></i>Notificami
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-main">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-brand">
+                        <div class="footer-text-alignment">
+                            <img src="assets/img/logo/ingenium.png" alt="Ingenium Logo" class="footer-logo">
+                        </div>
+                        <p class="footer-description footer-text-alignment">
+                            Una community di studenti che progettano, sperimentano e costruiscono il domani
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Link -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h5>Esplora</h5>
+                        <ul>
+                            <li><a href="index.html#home" class="footer-text-alignment">Home</a></li>
+                            <li><a href="index.html#about" class="footer-text-alignment">Chi Siamo</a></li>
+                            <li><a href="index.html#team" class="footer-text-alignment">Team</a></li>
+                            <li><a href="index.html#event" class="footer-text-alignment">Event</a></li>
+                            <li><a href="imensa.html" class="footer-text-alignment">iMENSA</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Progetti -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h5>Progetti</h5>
+                        <ul>
+                            <li><a href="imensa.html" class="footer-text-alignment">iMENSA</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contatti -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-contact">
+                        <h5>Contattaci</h5>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>LUM University<br>SS 100 Km 18, 70010 Casamassima BA</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>d.trunfio@studenti.lum.it</span>
+                            </div>
+                            <!-- <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span></span>
+                            </div> -->
+                        </div>
+                        
+                        <!-- Newsletter -->
+                        <div class="newsletter">
+                            <h6>Rimani Aggiornato</h6>
+                            <p>Iscriviti alla nostra newsletter</p>
+                            <form class="newsletter-form">
+                                <div style="position: relative; flex: 1 1 auto; min-width: 0;">
+                                    <input type="email" class="form-control" placeholder="La tua email" required>
+                                    <button class="btn btn-primary" type="submit" style="margin-top: 10px; flex: 1; width: 100%;">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h2>Pet that dawg</h2>
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/logo/qr-code-insta.png" alt="QR Code" class="img-fluid" style="max-width: 300px;" loading="lazy">
+                    </div>
+                    <div class="col-md-6">
+                        <div id="pet-container">
+                            <img id="digital-pet" src="assets/gif/pet-idle.gif" alt="Digital Pet" loading="lazy">
+                            <div class="pet-actions">
+                                <button id="feed-pet-btn" class="btn btn-sm btn-primary">Feed Pet</button>
+                                <button id="play-pet-btn" class="btn btn-sm btn-outline-light">Play with Pet</button>
+                            </div>
+                            <div id="pet-status">
+                                <p>Hunger: <span id="pet-hunger">100%</span></p>
+                                <p>Happiness: <span id="pet-happiness">100%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="row footer-bottom">
+                <div class="col-md-6">
+                    <div class="copyright">
+                        <p>&copy; 2025 Ingenium. Tutti i diritti riservati.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-legals">
+                        <a href="#privacy">Privacy Policy</a>
+                        <a href="#terms">Termini di Servizio</a>
+                        <a href="#cookies">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <button class="back-to-top" id="backToTop">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/imensa.js"></script>
+</body>
+</html>
