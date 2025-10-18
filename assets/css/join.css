@@ -32,10 +32,8 @@
     margin-bottom: 2rem;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 
-    display: flex;
-    gap: 1rem; /* horizontal spacing between buttons */
     transition: all 0.3s ease;
-    height: 100%;
+    height: 100%;   
     border: 2px solid transparent;
 }
 
@@ -209,6 +207,9 @@
     
     .role-card {
         padding: 2rem;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .application-form-container {
@@ -228,6 +229,12 @@
     }
     .hero-buttons {
         text-align: center;
+    }
+    .role-card {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1.5rem;
     }
     .join-hero h1 {
         font-size: 2.5rem;
