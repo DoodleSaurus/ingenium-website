@@ -41,7 +41,7 @@
 }
 
 .hero-buttons {
-    margin-bottom: 3rem;
+    margin-bottom: 3rem; 
 }
 
 .hero-features {
@@ -1157,6 +1157,7 @@
         flex-direction: column;
         text-align: center;
         gap: 1rem;
+        align-items: center;
     }
     
     .about-actions {
@@ -1297,12 +1298,36 @@
     .event-content h3 {
         font-size: 1.3rem;
     }
+
+    .role-icon {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(45deg, var(--primary-color), var(--dark-accent));
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.5rem;
+    }
 }
 
 @media (max-width: 576px) {
+
+    .role-icon {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(45deg, var(--primary-color), var(--dark-accent));
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.5rem;
+    }
+
     .hero-subtitle {
         font-size: 1.3rem;
     }
+
     .hero-title {
         font-size: 3.5rem;
         margin-top: 200px;
@@ -1319,6 +1344,7 @@
     .feature-item {
         flex: 1 1 100%;
         justify-content: center;
+        align-items: center;
     }
     
     .section-title {

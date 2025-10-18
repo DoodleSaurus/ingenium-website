@@ -31,6 +31,9 @@
     text-align: center;
     margin-bottom: 2rem;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
+    display: flex;
+    gap: 1rem; /* horizontal spacing between buttons */
     transition: all 0.3s ease;
     height: 100%;
     border: 2px solid transparent;
@@ -177,6 +180,7 @@
 
 .hero-buttons {
     margin-bottom: 3rem;
+    margin-top: 2.5rem;
 }
 
 /* Responsive */
@@ -191,6 +195,8 @@
     }
     .hero-buttons {
         text-align: center;
+        flex-direction: column;
+        gap: 0.75rem;
     }
 
     .join-hero h1 {

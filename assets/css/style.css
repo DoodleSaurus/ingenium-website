@@ -189,6 +189,11 @@ body {
 }
 
 .highlight-text-imensa {
+    color: #F1B98C;
+    font-weight: 700;
+}
+
+.highlight-text-imensa {
     color: var(--light-accent);
     font-weight: 700;
 }

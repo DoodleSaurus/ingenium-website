@@ -53,25 +53,6 @@ function showImensaVideo() {
                                 </div>
                             </div>
                         </div>
-                        <div class="video-features mt-4">
-                            <h6>Funzionalità in Sviluppo:</h6>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fas fa-code text-warning me-2"></i> Registrazione e login</li>
-                                        <li><i class="fas fa-code text-warning me-2"></i> Prenotazione pasti</li>
-                                        <li><i class="fas fa-code text-warning me-2"></i> Gestione menu</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fas fa-code text-warning me-2"></i> Tracking nutrizionale</li>
-                                        <li><i class="fas fa-code text-warning me-2"></i> Social features</li>
-                                        <li><i class="fas fa-code text-warning me-2"></i> Notifiche intelligenti</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
@@ -83,6 +64,26 @@ function showImensaVideo() {
             </div>
         </div>
     `;
+
+                        // <div class="video-features mt-4">
+                        //     <h6>Funzionalità in Sviluppo:</h6>
+                        //     <div class="row">
+                        //         <div class="col-md-6">
+                        //             <ul class="list-unstyled">
+                        //                 <li><i class="fas fa-code text-warning me-2"></i> Registrazione e login</li>
+                        //                 <li><i class="fas fa-code text-warning me-2"></i> Prenotazione pasti</li>
+                        //                 <li><i class="fas fa-code text-warning me-2"></i> Gestione menu</li>
+                        //             </ul>
+                        //         </div>
+                        //         <div class="col-md-6">
+                        //             <ul class="list-unstyled">
+                        //                 <li><i class="fas fa-code text-warning me-2"></i> Tracking nutrizionale</li>
+                        //                 <li><i class="fas fa-code text-warning me-2"></i> Social features</li>
+                        //                 <li><i class="fas fa-code text-warning me-2"></i> Notifiche intelligenti</li>
+                        //             </ul>
+                        //         </div>
+                        //     </div>
+                        // </div>
     
     const existingModal = document.getElementById('imensaVideoModal');
     if (existingModal) {
@@ -128,7 +129,7 @@ function showSurveyModal() {
                         <div class="survey-link">
                             <p><strong>Accedi al sondaggio:</strong></p>
                             <div class="input-group mb-2">
-                                <input type="text" class="form-control" value="https://forms.google.com/imensa-survey" readonly id="survey-link-input">
+                                <input type="text" class="form-control" value="" readonly id="survey-link-input">
                                 <button class="btn btn-primary" type="button" id="copySurveyLink">
                                     <i class="fas fa-copy"></i>
                                 </button>
@@ -140,13 +141,13 @@ function showSurveyModal() {
                             <div class="row text-center">
                                 <div class="col-6">
                                     <div class="info-item">
-                                        <strong>127</strong>
+                                        <strong>N/A</strong>
                                         <span>Partecipanti</span>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="info-item">
-                                        <strong>15</strong>
+                                        <strong>N/A</strong>
                                         <span>Giorni rimanenti</span>
                                     </div>
                                 </div>
@@ -155,7 +156,7 @@ function showSurveyModal() {
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
-                        <a href="https://forms.google.com/imensa-survey" target="_blank" class="btn btn-primary" id="open-survey-link">
+                        <a href="" target="_blank" class="btn btn-primary" id="open-survey-link">
                             <i class="fas fa-external-link-alt me-2"></i>Apri Sondaggio
                         </a>
                     </div>
